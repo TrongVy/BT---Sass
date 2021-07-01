@@ -1,0 +1,69 @@
+header{
+    padding: 0 100px;   
+    position: absolute;
+    width: 100%;
+    .navbar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        padding: 0 100px;
+    }
+    nav{
+        
+        #navbarNav{
+            justify-content:flex-end;
+            padding:0 $pd-2;
+          
+            ul li a{
+                color: black;
+                font-weight:500;
+                &:hover{
+                    color: $color;;
+                }
+            }
+        }
+        .menu-icon{
+            display:flex;
+            justify-content: space-between;
+            // padding:10px;
+           &__item{
+         
+                line-height:$px-4;
+               padding:0 $pd-2;
+               i{
+                   padding:0 3px;
+               }
+           }
+           &__buttons button{
+            @include styleButton(8px,25px,20px,$color,$color-while);
+           }
+         
+        }
+    
+        
+    }
+    .navbar-brand{
+        img{
+            height:$px-5;
+        }
+    }
+    .navbar-nav{
+        background:white;
+    }
+}
+//reposive 
+@include responsive( "large"){
+    
+    .navbar-nav{
+        background: white;
+        padding:0 20px;
+        text-align: center;
+     
+    }
+    .menu-icon{
+        background-color: #fff;
+        padding:$pd-2;
+    }
+}

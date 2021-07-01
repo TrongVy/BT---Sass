@@ -1,0 +1,40 @@
+.carousel-top{
+    
+    height:$px20;
+    img{
+        height:100%;
+        width: 100%;
+    }
+}
+.carousel-main{
+    padding: 0 100px;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+    top:-150px;
+    &__text{
+        margin-top: $px20;
+        text-align: left;
+        .span-heading{       
+                font-size:1rem;  
+                color:$color;       
+             }
+        .span-content{
+            font-size:4rem;
+        }
+    }
+}
+//responsive
+@include responsive("large"){
+    .span-content{
+        font-size:  2rem !important;;
+    
+    }
+}
+@include responsive("medium"){
+    .carousel-main__text{
+        display:none;
+    }
+}

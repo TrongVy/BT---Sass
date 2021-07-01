@@ -1,0 +1,32 @@
+$color:#b61984;
+$color-while:white;
+
+//pixel.
+$px: 5px;
+$px-1:10px;
+$px-2:20px;
+$px-3:30px;
+$px-4:40px;
+$px-5:50px;
+$px-6:60px;
+$px-7:70px;
+$px-8:80px;
+$px-9:90px;
+$px10:100px;
+$px20:200px;
+//padding
+$pd-1:10px;
+$pd-2:20px;
+// 
+
+//break points
+$breakpoints: (
+    "extra-large": 1200px,
+    "large": 992px,
+    "medium": 768px,
+    "small": 576px,
+    "extra-large-down": 1199.98px,
+    "large-down": 991.98px,
+    "medium-down": 767.98px,
+    "small-down": 575.98px,
+);
