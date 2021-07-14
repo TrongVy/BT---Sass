@@ -215,7 +215,7 @@ header .navbar-nav {
 .contact-img {
   height: 100%;
   width: 100%;
-  background-image: url(../../image/conatct_inner.png);
+  background-image: url(../image/conatct_inner.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -338,7 +338,7 @@ header .navbar-nav {
 footer {
   height: 100%;
   width: 100%;
-  background-image: url(../../image/footer_background.jpg);
+  background-image: url(../image/footer_background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
